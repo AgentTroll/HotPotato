@@ -4,7 +4,7 @@ import java.util.Random;
 public class HotPotato extends Potato {
 
     public HotPotato() {
-        System.out.println("[HotPotato]has started! Out that burns, throw it!");
+        System.out.println("[HotPotato]has started! Ouch that burns, throw it!");
     }
 
     public static void main(String[] args) {
