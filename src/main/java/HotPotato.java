@@ -7,7 +7,7 @@ public class HotPotato extends Potato {
     }
 
     public static void main(String[] args) {
-        HotPotato HotPotato = new HotPotato();
+        HotPotato hotPotato = new HotPotato();
         while(true) {
             Person person = new Person();
             if(new Random().nextInt(10) == 5) {
