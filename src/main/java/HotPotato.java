@@ -9,6 +9,12 @@ public class HotPotato extends Potato {
     public static void main(String[] args) {
         HotPotato hotPotato = new HotPotato();
         while(true) {
+            try {
+                Theead.sleep(1000);
+            } catch(InterruptedException e) {
+                System.out.println("Well that didn't work.");
+            }
+
             Person person = new Person();
             if(new Random().nextInt(10) == 5) {
                 person.throwFar();
