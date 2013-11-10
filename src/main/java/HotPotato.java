@@ -1,4 +1,3 @@
-import Potato;
 import java.util.Random;
 
 public class HotPotato extends Potato {
